@@ -1,0 +1,16 @@
+alias .. "cd .."
+alias env "grc env"
+alias ll "grc ls -l -color"
+alias lt "grc ls -lhatr"
+alias cl "clear"
+
+alias cdg "cd $GIT_WORKSPACE"
+alias hist "history | grep"
+
+alias rmds "sudo find . -name '.DS_Store' -depth -exec rm {} \;"
+
+alias s3 "aws s3"
+
+alias air_act "conda activate airflow"
+alias air_up "airflow webserver -p 8080"
+alias dact "conda deactivate"

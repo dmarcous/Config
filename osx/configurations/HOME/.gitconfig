@@ -1,0 +1,17 @@
+[user]
+	name = Daniel
+	email = XXXXXXXXXX@XXXXX.XXX
+[alias]  
+        review = "!f() { git push origin HEAD:refs/for/${1:-master}; }; f"
+        ca = !git add -A && git commit -av
+		tags = tag -l
+		branches = branch -a
+		remotes = remote -v
+		amend = commit --amend --no-edit
+[core]
+	excludesfile = ~/git/.gitignore_global
+	editor = subl -n -w
+[color]
+	ui = auto
+[merge]
+	log = true
