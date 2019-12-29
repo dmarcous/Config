@@ -15,6 +15,8 @@ alias rmds="sudo find . -name '.DS_Store' -depth -exec rm {} \;"
 
 alias s3="aws s3"
 
+alias gitAggressiveResetToMaster="git fetch origin; git reset --hard origin/master"
+
 # Sublime editor
 export EDITOR='subl -w'
 

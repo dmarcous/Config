@@ -11,6 +11,8 @@ alias rmds "sudo find . -name '.DS_Store' -depth -exec rm {} \;"
 
 alias s3 "aws s3"
 
+alias gitAggressiveResetToMaster "git fetch origin; git reset --hard origin/master"
+
 alias air_act "conda activate airflow"
 alias air_up "airflow webserver -p 8080"
 alias dact "conda deactivate"
