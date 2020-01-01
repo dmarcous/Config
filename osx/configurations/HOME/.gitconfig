@@ -15,3 +15,5 @@
 	ui = auto
 [merge]
 	log = true
+[init]
+	templatedir = ~/.git-templates

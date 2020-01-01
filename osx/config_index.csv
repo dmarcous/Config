@@ -11,6 +11,7 @@ path,is_private
 ~/.config/fish/config.fish,0
 ~/.gitconfig,0
 ~/.git-credentials,1
+~/.git-templates/hooks,0
 ~/git/.gitignore_global,0
 ~/.gradle/gradle.properties,0
 ~/.sbtcredentials,1
