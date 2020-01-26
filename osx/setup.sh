@@ -31,33 +31,26 @@ fisher z fzf edc/bass grc
 curl -L https://get.oh-my.fish | fish
 
 # Python
-## Setup
+## Setup root python
 sudo pip3 install --upgrade pip setuptools wheel six
+## -- Install Conda -- https://www.anaconda.com/distribution/
+conda init
+conda init fish
 ## After anaconda setup
-pip install --upgrade pip setuptools wheel six
-pip install virtualenv virtualenvwrapper
-pip install --upgrade imutils
-pip install numpy scipy pandas scikit-learn
+conda install imutils 
+conda install -c conda-forge awscli 
+conda install -c conda-forge google-cloud
 conda install -c conda-forge pyarrow
-pip install jupyter
-pip install pillow
-pip install h5py
-pip install --upgrade scikit-learn
-pip install --upgrade matplotlib
-pip install tensorflow / 
-### To upgrade tensorflow to mac version :
-# pip install tensorflow --upgrade https://github.com/lakshayg/tensorflow-build/releases/download/tf1.9.0-macos-py27-py36/tensorflow-1.9.0-cp36-cp36m-macosx_10_13_x86_64.whl
-pip install awscli
-pip install google-cloud
+conda install -c conda-forge clang_osx-64 clangxx_osx-64
 ## Jupyter lab
 conda install -c conda-forge jupyterlab
+conda install -c conda-forge jupyterlab-git
+conda install -c conda-forge ipywidgets
+conda install -c conda-forge black
+conda install -c pyviz/label/dev pyviz
 jupyter labextension install @jupyterlab/toc
 jupyter labextension install @jupyterlab/git
-pip install jupyterlab-git
 jupyter serverextension enable --py jupyterlab_git
-conda install -c conda-forge ipywidgets
-conda install -c pyviz/label/dev pyviz
-pip install black
 
 # Mac
 defaults write com.apple.finder AppleShowAllFiles YES
