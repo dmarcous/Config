@@ -28,5 +28,6 @@ path,is_private
 ~/.kaggle/kaggle.json,1
 ~/.condarc,0
 ~/.keras,0
+~/.tcshrc,0
 ~/.tmux.conf,0
 /etc/hosts,1

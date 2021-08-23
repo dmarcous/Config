@@ -1,0 +1,48 @@
+Chrome (https://www.google.com/chrome/)
+- Extensions :
+  uBlock Origin (https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+  Workona (https://workona.com/)
+iTerm2 (https://iterm2.com/)
+Sublime (https://www.sublimetext.com/)
+XCode (https://developer.apple.com/xcode/)
+XCode CMD tools (sudo xcode-select --install)
+Keka (https://www.keka.io/en/)
+JDK (https://www.oracle.com/java/technologies/javase-downloads.html)
+Anaconda (https://www.anaconda.com/products/individual)
+IntelliJ Utlimate (https://www.jetbrains.com/idea/)
+PyCharm (https://www.jetbrains.com/pycharm/)
+- Plugins :
+ Cloud Code
+ Big data tools
+ Python
+ Hashicorp Terraform
+ Rainbow brackets
+ Indent rainbow
+ Json parser (godwin joseph)
+ Protocol buffer editor (Jeremy volkman
+ Gerrit
+ GitToolBox
+ one dark theme
+ Docker
+ Kubernetes
+ .env file support
+ Shellcheck
+Android Studio (https://developer.android.com/studio)
+Docker Desktop (https://www.docker.com/products/docker-desktop)
+Insomnia (https://insomnia.rest/download)
+Wireshark (https://www.wireshark.org/)
+Cyberduck (https://cyberduck.io/)
+Tor (https://www.torproject.org/download/)
+Logi Options (https://www.logitech.com/en-us/product/options)
+Rectangle (https://rectangleapp.com/)
+VLC (https://www.videolan.org/)
+Caption (https://getcaption.co/)
+WebTorrent (https://webtorrent.io/desktop/)
+WhatsApp (https://www.whatsapp.com/?lang=en)
+Facebook messenger (https://messenger.com/)
+Google Chat (https://chat.google.com/download/)
+Google Meet (https://support.google.com/meet/answer/10708569)
+Spotify (https://www.spotify.com/us/download/mac/)
+Zoom (https://zoom.us/download)
+Telegram (https://desktop.telegram.org/)
+Slack (https://slack.com/intl/en-il/downloads/mac)
