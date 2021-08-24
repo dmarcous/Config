@@ -13,16 +13,6 @@ brew install --cask font-hack-nerd-font
 brew tap sambadevi/powerlevel9k
 brew install powerlevel9k
 
-
-brew install caskroom/cask/brew-cask
-brew cask install google-cloud-sdk
-brew install kubectl
-brew tap caskroom/fonts
-brew tap caskroom/cask
-brew cask install font-inconsolata
-brew cask install font-hack-nerd-font ### to use : change on iterm2 profile settings to use font = Hack nerd font)
-brew cask install insomnia
-
 ## Cleanup
 brew cleanup
 
@@ -33,6 +23,8 @@ brew install zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Fish
+sudo chown -R $USER:staff .config/fish
+fish
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher install jorgebucaran/fish-bax jethrokuan/z orefalo/grc jethrokuan/fzf
 curl -L https://get.oh-my.fish | fish
