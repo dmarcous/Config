@@ -1,4 +1,3 @@
-bass ~/.bash_profile
 source ~/.fish_variables
 source ~/.fish_aliases
 
@@ -13,3 +12,4 @@ cd
 eval ~/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
+#conda activate [SOME ENV]

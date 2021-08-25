@@ -6,6 +6,7 @@ set --export EDITOR "subl -w"
 
 set --export AIRFLOW_HOME ~/airflow
 
+set --export PS1 "[\[\033[0;31m\]\t>\[\033[0;34m\]\h\[\033[0m\]:\[\033[0;37m\]\[\033[0;32m\]\u\[\033[0m\]]\w: "
 set --export CLICOLOR 1
 set --export LSCOLORS Exfxcxdxbxegedabagacad
 

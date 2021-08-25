@@ -32,7 +32,7 @@ function d () {
 compdef _dirs d
 
 # List directory contents
-alias lsa='grc ls -lah'
-alias l='grc ls -lah'
-alias ll='grc ls -lh -color'
-alias la='grc ls -lAh'
+alias lsa='ls -lah'
+alias l='ls -lah'
+alias ll='ls -lh'
+alias la='ls -lAh'

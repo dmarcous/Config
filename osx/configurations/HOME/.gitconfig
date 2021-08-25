@@ -3,6 +3,8 @@
 	email = XXXXXXXXXX@XXXXX.XXX
 [alias]  
         review = "!f() { git push origin HEAD:refs/for/${1:-master}; }; f"
+        checkout-config = "! git fetch origin refs/meta/config:refs/remotes/origin/meta/config && git checkout meta/config"
+  		review-config = push origin meta/config:refs/for/refs/meta/config
         ca = !git add -A && git commit -av
 		tags = tag -l
 		branches = branch -a
@@ -17,3 +19,10 @@
 	log = true
 [init]
 	templatedir = ~/.git-templates
+[pull]
+	rebase = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
