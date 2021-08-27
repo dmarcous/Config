@@ -15,6 +15,7 @@ set --export LD_LIBRARY_PATH $JAVA_HOME/jre/lib/server
 set --export PATH $PATH:$JAVA_HOME/bin
 
 set --export PATH /usr/local/sbin $PATH
+set --export PATH ~/.local/bin $PATH
 
 set --export MY_NAME (whoami)
 
