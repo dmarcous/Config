@@ -37,7 +37,7 @@ fzf
 ## Setup root python
 sudo pip3 install --upgrade pip setuptools wheel six
 # Poetry
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
 ## -- Install Conda -- https://www.anaconda.com/distribution/
 conda init
 conda init fish
