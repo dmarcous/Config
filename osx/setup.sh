@@ -33,6 +33,18 @@ curl -L https://get.oh-my.fish | fish
 $(brew --prefix)/opt/fzf/install
 fzf
 
+# Mac
+defaults write com.apple.finder AppleShowAllFiles YES
+
+# Sublime setup
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+defaults write com.apple.LaunchServices LSHandlers -array-add '{LSHandlerContentType=public.plain-text;LSHandlerRoleAll=com.sublimetext.3;}'
+
+# Git config
+git config --global user.name "dmarcous"
+git config --global user.email "dmarcous@gmail.com"
+git config --global core.editor "subl -n -w"
+
 # Python
 ## Setup root python
 sudo pip3 install --upgrade pip setuptools wheel six
@@ -42,6 +54,7 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-
 conda init
 conda init fish
 ## After anaconda setup
+conda create --name [ENV_NAME]
 conda install -c conda-forge scikit-learn
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
@@ -70,15 +83,3 @@ cd google-cloud-sdk-353.0.0-darwin-x86_64
 ./google-cloud-sdk/install.sh
 ./google-cloud-sdk/bin/gcloud init
 gcloud auth application-default login
-
-# Mac
-defaults write com.apple.finder AppleShowAllFiles YES
-
-# Sublime setup
-sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-defaults write com.apple.LaunchServices LSHandlers -array-add '{LSHandlerContentType=public.plain-text;LSHandlerRoleAll=com.sublimetext.3;}'
-
-# Git config
-git config --global user.name "dmarcous"
-git config --global user.email "dmarcous@gmail.com"
-git config --global core.editor "subl -n -w"
