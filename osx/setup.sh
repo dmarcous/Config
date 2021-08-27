@@ -52,28 +52,21 @@ sudo pip3 install --upgrade pip setuptools wheel six
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
 ## -- Install Conda -- https://www.anaconda.com/distribution/
 conda init
+conda init zsh
 conda init fish
 ## After anaconda setup
 conda create --name [ENV_NAME]
-conda install -c conda-forge scikit-learn
+conda install -c conda-forge 
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
-conda install -c conda-forge tensorflow
-conda install -c conda-forge tensorboard
+conda install -c conda-forge scikit-learn tensorflow tensorboard
 ## Jupyter lab
-conda install -c conda-forge nodejs
-conda install -c conda-forge jupyterlab
-jupyter labextension install jupyterlab_tensorboard
-conda install -c conda-forge nbresuse
-pip install jupyterlab-system-monitor
-conda install -c conda-forge xeus-python
-conda install -c conda-forge jupyterlab-git
-conda install -c conda-forge jupytext
+conda install -c conda-forge nodejs jupyterlab nbresuse xeus-python jupyterlab-git jupytext nbdime jupyterlab-system-monitor
+pip install aquirdturtle_collapsible_headings
+jupyter labextension install jupyterlab_tensorboard 
 jupyter labextension install nbgather
 jupyter labextension install @lckr/jupyterlab_variableinspector
-pip install nbdime
 jupyter labextension install jupyterlab_voyager
-pip install aquirdturtle_collapsible_headings
 
 # gcloud
 cd /tmp
