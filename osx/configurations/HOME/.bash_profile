@@ -73,6 +73,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# poetry setup
+export PATH="/Users/danielm/.local/bin:$PATH"
+
 # iterm2 magic
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
