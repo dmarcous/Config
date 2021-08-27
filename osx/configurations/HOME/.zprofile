@@ -74,7 +74,7 @@ unset __conda_setup
 # iterm2 magic
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-## Setup waze-data repo requirements
+## Setup internal repo requirements
 # Internal python packages
 #export PYTHONPATH=$PYTHONPATH:$GIT_WORKSPACE/[SOME LOCAL REPO]/
 ## Conda env
