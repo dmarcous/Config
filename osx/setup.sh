@@ -69,10 +69,15 @@ jupyter labextension install @lckr/jupyterlab_variableinspector
 jupyter labextension install jupyterlab_voyager
 
 # gcloud
-cd /tmp
+cd
 wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-353.0.0-darwin-x86_64.tar.gz 
-tar –xvzf google-cloud-sdk-353.0.0-darwin-x86_64.tar.gz
-cd google-cloud-sdk-353.0.0-darwin-x86_64
-./google-cloud-sdk/install.sh
-./google-cloud-sdk/bin/gcloud init
+tar -xvf google-cloud-sdk-353.0.0-darwin-x86_64.tar.gz
+rm -rf google-cloud-sdk-353.0.0-darwin-x86_64.tar.gz
+cd google-cloud-sdk
+./install.sh
+bash
+./install.sh
+exit
+./bin/gcloud init
+cd
 gcloud auth application-default login
