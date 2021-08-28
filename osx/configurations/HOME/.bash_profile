@@ -77,6 +77,7 @@ unset __conda_setup
 export PATH="/Users/danielm/.local/bin:$PATH"
 # bazel setup
 export PATH="$PATH:$HOME/bin"
+if [ -f '~/.bazel/bin/bazel-complete.bash' ]; then source '~/.bazel/bin/bazel-complete.bash'; fi
 
 # iterm2 magic
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
