@@ -73,6 +73,8 @@ unset __conda_setup
 
 # poetry setup
 export PATH="/Users/danielm/.local/bin:$PATH"
+# bazel setup
+export PATH="$PATH:$HOME/bin"
 
 # iterm2 magic
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
