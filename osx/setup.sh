@@ -68,7 +68,7 @@ jupyter labextension install nbgather
 jupyter labextension install @lckr/jupyterlab_variableinspector
 jupyter labextension install jupyterlab_voyager
 
-# gcloud
+# gcloud install
 cd
 wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-353.0.0-darwin-x86_64.tar.gz 
 tar -xvf google-cloud-sdk-353.0.0-darwin-x86_64.tar.gz
@@ -81,3 +81,10 @@ exit
 ./bin/gcloud init
 cd
 gcloud auth application-default login
+
+# bazel install
+cd
+export BAZEL_VERSION=3.2.0
+curl -fLO "https://github.com/bazelbuild/bazel/releases/download/${BAZEL_VERSION}/bazel-${BAZEL_VERSION}-installer-darwin-x86_64.sh"
+chmod +x "bazel-${BAZEL_VERSION}-installer-darwin-x86_64.sh"
+./bazel-${BAZEL_VERSION}-installer-darwin-x86_64.sh --user
