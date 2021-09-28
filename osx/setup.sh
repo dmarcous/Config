@@ -59,7 +59,7 @@ conda create --name [ENV_NAME]
 conda install -c conda-forge 
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
-conda install -c conda-forge scikit-learn tensorflow tensorboard
+conda install -c conda-forge pandas matplotlib seaborn scikit-learn tensorflow tensorboard
 ## Jupyter lab
 conda install -c conda-forge nodejs jupyterlab nbresuse xeus-python jupyterlab-git jupytext nbdime jupyterlab-system-monitor
 pip install aquirdturtle_collapsible_headings
