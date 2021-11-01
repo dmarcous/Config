@@ -13,6 +13,8 @@ brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 brew tap sambadevi/powerlevel9k
 brew install powerlevel9k
+brew tap bazelbuild/tap
+brew install bazelbuild/tap/ibazel
 
 ## Cleanup
 brew cleanup
