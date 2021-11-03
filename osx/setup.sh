@@ -7,7 +7,7 @@
 sudo chmod -R a+w /usr/local/*
 brew update && brew upgrade
 ## Installs 
-brew install wget gcc llvm fish thefuck fzf grc gradle sbt maven git-lfs node tmux openvpn automake libtool protobuf tig swig gflags glog openssl openssh cmake bazel shellcheck jq coreutils findutils bash bash-completion2 grep bash bats-core terraform
+brew install wget gcc llvm fish thefuck fzf grc gradle sbt maven git-lfs node tmux openvpn automake libtool protobuf tig swig gflags glog openssl openssh cmake bazel shellcheck jq coreutils findutils bash bash-completion2 grep bash bats-core terraform gh
 brew install --cask bloomrpc
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
